@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrainsKotlinAndroid)
     alias(libs.plugins.daggerHilt)
     kotlin("kapt")
+    id("de.mannodermaus.android-junit5") version "1.10.0.0"
 }
 
 android {
@@ -44,6 +45,7 @@ android {
 dependencies {
     //hilt
     implementation(libs.hilt.android)
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     kapt(libs.hilt.compiler)
     
     // Retrofit and Gson
@@ -89,6 +91,9 @@ dependencies {
     testImplementation(libs.junit)
     testRuntimeOnly(libs.junit.vintage.engine)
     testImplementation(libs.junit)
+    testImplementation(libs.junit.jupiter.api.v581)
+    testRuntimeOnly(libs.junit.jupiter.engine.v581)
+    testImplementation( libs.mockk.v1120)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
