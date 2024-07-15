@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">15dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="space_item_decoration">16dp</dimen>
+    <dimen name="small_padding">12dp</dimen>
+    <dimen name="extra_small_padding">8dp</dimen>
+    <dimen name="general_text_size">14sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="old_price_text_size">11sp</dimen>
+</resources>

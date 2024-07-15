@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="general_text">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">@dimen/general_text_size</item>
+    </style>
+
+    <style name="old_price">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">@dimen/old_price_text_size</item>
+        <item name="android:textColor">@color/small_text_color</item>
+    </style>
+
+    <style name="small_text">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+</resources>

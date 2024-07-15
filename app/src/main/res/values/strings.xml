@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RouteEcommerceTask</string>
+    <string name="shopping_cart_icon">shopping_cart_icon</string>
+    <string name="what_do_you_search_for">What do you search for ?</string>
+    <string name="route_logo">route_logo</string>
+    <string name="favorite_button">favorite_button</string>
+    <string name="product_image">product_image</string>
+    <string name="review">Review</string>
+    <string name="star_icon_for_review">star_icon_for_review</string>
+</resources>
