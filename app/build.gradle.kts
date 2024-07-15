@@ -63,11 +63,31 @@ dependencies {
 
     //splash
     implementation(libs.androidx.core.splashscreen)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    // Testing
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    // (Required) Writing and executing Unit Tests on the JUnit Platform
+    testImplementation(libs.junit.jupiter.api)
+    testRuntimeOnly(libs.junit.jupiter.engine)
+
+    // (Optional) If you need "Parameterized Tests"
+    testImplementation(libs.junit.jupiter.params)
+    testImplementation (libs.mockk.vversion)
+    testImplementation (libs.mockk.android)
+    testImplementation (libs.mockk.agent)
+    testImplementation(libs.mockk)
+    testImplementation (libs.kotlinx.coroutines.test)
+
+    // (Optional) If you also have JUnit 4-based tests
+    testImplementation(libs.junit)
+    testRuntimeOnly(libs.junit.vintage.engine)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
