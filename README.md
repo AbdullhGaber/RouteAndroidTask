@@ -12,7 +12,7 @@ This project is an Android application that displays a list of products. The app
 - [Unit Testing](#unit-testing)
 - [Video](#video)
 - [Contributing](#contributing)
-- [License](#license)
+- [Contacts](#contacts)
 
 ## Architecture
 
@@ -99,3 +99,7 @@ Contributions are welcome! Please follow these steps:
 2. Create a new branch with a descriptive name.
 3. Make your changes.
 4. Submit a pull request.
+
+
+## Contacts
+gmail : drabdullh2002.1@gmail.com
