@@ -73,7 +73,7 @@ The project includes unit tests for ViewModel and use cases.
 
 To run the tests:
 1. Open the test directory in Android Studio.
-2. Right-click on the `com.example.route_task` package and select "Run Tests".
+2. Right-click on the `com.example.routeecommercetask` package and select "Run Tests".
 
 ## Design Images
 
