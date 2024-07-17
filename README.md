@@ -59,7 +59,7 @@ To use the app:
 
 1. Launch the app on your device or emulator.
 2. The app will show a splash screen followed by a list of products.
-3. Tap on a product to view its details.
+
 
 ## Features
 
